@@ -1,9 +1,11 @@
-def main():
-    print("hola mundo")
+import streamlit as st
 
-    print("TODO: añadir un mensaje de error")
+def main():
+    st.write("hola mundo")
+
+    st.write("TODO: añadir un mensaje de error")
 
 if __name__ == "__main__":
     main()
-    print("fin")
-    print("fin2")
+    st.write("fin")
+    st.write("fin2")
