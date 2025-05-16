@@ -1,9 +1,9 @@
 import streamlit as st
+import seaborn as sns
 
 def main():
-    st.write("hola mundo")
-
-    st.write("TODO: añadir un mensaje de error")
+    df = sns.load_dataset("titanic")
+    st.dataframe(df)
 
 if __name__ == "__main__":
     main()
